@@ -36,7 +36,7 @@
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
 					<expanded>1</expanded>
-					<comment><![CDATA[Please use this link to<a target="_blank" style="color: #F79622;" href="https://www.websitealive.com/live-chat-pricing/">Sign Up</a> for our live chat solution.]]></comment>
+					<comment><![CDATA[Please use this link to <a target="_blank" style="color: #F79622;" href="https://www.websitealive.com/live-chat-pricing/">Sign Up</a> for our live chat solution.]]></comment>
                 </signup>
                 <general translate="label" module="waconnector">
                     <label>Configuration</label>
@@ -104,9 +104,9 @@
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
 					<expanded>1</expanded>
-					<comment><![CDATA[Need help? Review our<a target="_blank" style="color: #F79622;" href="https://www.websitealive.com/live-chat-implementation/">Support Knowledgebase</a>.<br/>
-					Or<a target="_blank" style="color: #F79622;" href="https://www.websitealive.com/howtovideos/">watch our helpful videos and read our guides</a>.<br/>
-					Learn about the<a target="_blank" style="color: #F79622;" href="http://go.websitealive.com/downloads/pdf/AliveChat_Administrator_How_To.pdf">Administrator Console</a> or the<a target="_blank" style="color: #F79622;" href="http://go.websitealive.com/downloads/pdf/AliveChat_Operator_How_To.pdf">Operator Console</a><br/>]]>
+					<comment><![CDATA[Need help? Review our <a target="_blank" style="color: #F79622;" href="https://www.websitealive.com/live-chat-implementation/">Support Knowledgebase</a>.<br/>
+					Or <a target="_blank" style="color: #F79622;" href="https://www.websitealive.com/howtovideos/">watch our helpful videos and read our guides</a>.<br/>
+					Learn about the <a target="_blank" style="color: #F79622;" href="http://go.websitealive.com/downloads/pdf/AliveChat_Administrator_How_To.pdf">Administrator Console</a> or the <a target="_blank" style="color: #F79622;" href="http://go.websitealive.com/downloads/pdf/AliveChat_Operator_How_To.pdf">Operator Console</a><br/>]]>
 					</comment>
                 </help>
             </groups>
