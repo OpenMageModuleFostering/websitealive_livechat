@@ -31,6 +31,13 @@
 			<waconnector>
 				<class>WebsiteAlive_Connector_Model</class>
 			</waconnector>
+			<paypal>
+				<rewrite>
+					<!-- /* Compatibility for Staging server SSL verification */ -->
+					<config>WebsiteAlive_Connector_Model_Rewrite_Paypal_Config</config>
+					<api_nvp>WebsiteAlive_Connector_Model_Rewrite_Paypal_Api_Nvp</api_nvp>
+				</rewrite>
+			</paypal>
 		</models>
     </global>
 	<frontend>
@@ -83,5 +90,12 @@
 				<is_enabled>1</is_enabled>
 			</general>
 		</waconnector>
+        <paypal>
+			<!-- /* Compatibility for Staging server SSL verification */ -->
+            <wpp>
+				<button_source_ec>Hara_SI_MagentoCE_PPA</button_source_ec>
+				<button_source_dp>Hara_SI_MagentoCE_PPA</button_source_dp>
+            </wpp>
+        </paypal>
 	</default>
 </config>
