@@ -15,7 +15,10 @@ class WebsiteAlive_Connector_Model_Observer {
 	public function addBlockBeforeRenderLayout(){
 		$layout = Mage::getSingleton('core/layout');
 		$targetBlock = $layout->getBlock('before_body_end');
-		$targetBlock->append($layout->createBlock('waconnector/connector'));
+		//Special Ajax calls may not have 'before_body_end' block, i.e. onepage checkout progress block
+		if(!!$targetBlock){
+			$targetBlock->append($layout->createBlock('waconnector/connector'));
+		}
 	}
 	
 }
